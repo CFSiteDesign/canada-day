@@ -19,8 +19,6 @@ const HeroSection = () => {
         >
           HAPPY CANADA DAY
         </h1>
-          HAPPY CANADA DAY
-        </h1>
         <p className="text-[13px] md:text-2xl font-bold mb-6 md:mb-10 max-w-xl leading-relaxed z-10 text-white">
           Maple syrup shots at midnight, eh?<br />
           Poutine plates piled half a metre high.<br />
