@@ -1,27 +1,27 @@
 import { useEffect, useRef, useState } from "react";
-import cardDrag from "@/assets/card-dragshow.jpg";
-import cardQuiz from "@/assets/card-queerquiz.jpg";
-import cardDrinks from "@/assets/card-drinkdeals.jpg";
+import cardMaple from "@/assets/card-maple.jpg";
+import cardHockey from "@/assets/card-hockey.jpg";
+import cardPoutine from "@/assets/card-poutine.jpg";
 
 const CARDS = [
   {
-    image: cardDrag,
-    title: "Drag Show",
-    description: "Lashes long, heels higher. Local queens lip-syncing for their lives — and yours.",
-    badge: "Headline Act",
+    image: cardMaple,
+    title: "Maple Shots",
+    description: "Maple syrup, whisky, regret. Lined up at the bar from sundown 'til last call.",
+    badge: "Headline Pour",
     rotation: "rotate-2",
   },
   {
-    image: cardQuiz,
-    title: "Queer Quiz",
-    description: "Pop culture, icons, and unhinged Pride trivia. Rally your team and lift the rainbow trophy.",
+    image: cardHockey,
+    title: "Beer Pong, Eh?",
+    description: "Mini sticks, red solo cups in maple-leaf formation. Loser buys the next round.",
     badge: "Big Prizes",
     rotation: "-rotate-2",
   },
   {
-    image: cardDrinks,
-    title: "Drink Deals",
-    description: "Rainbow shots, glittery cocktails, and 2-for-1 specials. Hydrate (loosely).",
+    image: cardPoutine,
+    title: "Poutine Party",
+    description: "Fries, curds, gravy — the holy trinity. Soak up the night the Canadian way.",
     badge: "All Night",
     rotation: "-rotate-1",
   },
@@ -75,9 +75,9 @@ const DamageCard = ({ card }: { card: typeof CARDS[number] }) => {
 
 const DamageSection = () => {
   return (
-    <section className="relative py-12 md:py-24 px-4 md:px-16 border-b-4 border-divider overflow-visible" style={{ backgroundColor: '#00B4D8' }}>
+    <section className="relative py-12 md:py-24 px-4 md:px-16 border-b-4 border-divider overflow-visible" style={{ backgroundColor: '#D52B1E' }}>
       <h2 className="text-4xl md:text-8xl font-black uppercase text-center mb-8 md:mb-16 text-primary-foreground leading-none tracking-tighter">
-        Cheers Queers
+        Sorry, Not Sorry 🍁
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12 max-w-7xl mx-auto">
         {CARDS.map((card) => (
@@ -85,7 +85,7 @@ const DamageSection = () => {
         ))}
       </div>
       <p className="mt-8 md:mt-12 text-center text-base md:text-xl font-black uppercase text-primary-foreground max-w-3xl mx-auto leading-snug">
-        Every location does Pride differently — check your hostel's lineup before booking.
+        Every location does Canada Day a little differently — check your hostel's lineup before booking.
       </p>
     </section>
   );

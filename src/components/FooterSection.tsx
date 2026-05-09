@@ -2,7 +2,7 @@ import madMonkeyLogo from "@/assets/mad-monkey-logo.png";
 
 const FooterSection = () => {
   return (
-    <footer className="text-foreground py-8 md:py-12 px-4 md:px-16 border-t-4 border-divider" style={{ backgroundColor: '#9B5DE5' }}>
+    <footer className="text-foreground py-8 md:py-12 px-4 md:px-16 border-t-4 border-divider" style={{ backgroundColor: '#D52B1E' }}>
       <div className="max-w-7xl mx-auto flex flex-col items-center gap-6 md:gap-8">
         <img
           src={madMonkeyLogo}
@@ -35,7 +35,7 @@ const FooterSection = () => {
         </div>
 
         <p className="text-[9px] md:text-[10px] font-bold uppercase tracking-[0.3em] md:tracking-[0.4em] text-foreground/60">
-          © 2026 MAD MONKEY HOSTELS. CHEERS QUEERS — ALL IN, ALL PRIDE.
+          © 2026 MAD MONKEY HOSTELS. CANADA DAY — ALL IN, EH.
         </p>
       </div>
     </footer>
