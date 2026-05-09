@@ -14,9 +14,11 @@ const HeroSection = () => {
           July 1st 🍁
         </div>
         <h1
-          className="w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mt-4 md:-mt-6 -mb-4 md:-mb-8 z-10 text-white text-[4.5rem] leading-[0.85] md:text-[7rem] lg:text-[9rem] xl:text-[11rem] font-['Bebas_Neue'] tracking-wide drop-shadow-[4px_4px_0_rgba(0,0,0,1)] text-left"
+          className="w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mt-4 md:mt-6 mb-4 md:mb-6 z-10 text-white text-[3.5rem] leading-[0.9] md:text-[6rem] lg:text-[8rem] xl:text-[10rem] font-['Bebas_Neue'] tracking-wide drop-shadow-[4px_4px_0_rgba(0,0,0,1)] text-left"
           style={{ WebkitTextStroke: '2px black' }}
         >
+          HAPPY CANADA DAY
+        </h1>
           HAPPY CANADA DAY
         </h1>
         <p className="text-[13px] md:text-2xl font-bold mb-6 md:mb-10 max-w-xl leading-relaxed z-10 text-white">
