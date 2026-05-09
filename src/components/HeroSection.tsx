@@ -45,7 +45,7 @@ const HeroSection = () => {
           <div className="absolute top-4 right-4 md:top-10 md:right-10 bg-primary text-primary-foreground p-2 md:p-4 border-2 border-primary font-black text-sm md:text-xl uppercase rotate-12 shadow-lg z-20">
             🍁 ALL IN
           </div>
-          <div className="absolute bottom-4 left-4 md:bottom-10 md:left-10 bg-card text-foreground p-2 md:p-4 border-2 border-border font-black text-sm md:text-xl uppercase -rotate-6 shadow-lg z-20">
+          <div className="absolute top-4 left-4 md:top-10 md:left-10 bg-card text-foreground p-2 md:p-4 border-2 border-border font-black text-sm md:text-xl uppercase -rotate-6 shadow-lg z-20">
             Eh? Canada Day 2026
           </div>
         </div>
