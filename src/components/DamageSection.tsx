@@ -1,25 +1,25 @@
 import { useEffect, useRef, useState } from "react";
-import cardMaple from "@/assets/card-maple.jpg";
-import cardHockey from "@/assets/card-hockey.jpg";
-import cardPoutine from "@/assets/card-poutine.jpg";
+import cardBbq from "@/assets/card-bbq.jpg";
+import cardBoat from "@/assets/card-boat.jpg";
+import cardFreeflow from "@/assets/card-freeflow.jpg";
 
 const CARDS = [
   {
-    image: cardMaple,
-    title: "BBQ",
-    description: "Grills fired up, burgers stacked, maple-glazed everything. Eat 'til you can't move.",
+    image: cardBbq,
+    title: "Maple BBQ",
+    description: "Grills fired up, maple-glazed burgers, flag-stuck sausages. Eat 'til you can't move, eh.",
     badge: "Fire It Up",
     rotation: "rotate-2",
   },
   {
-    image: cardHockey,
+    image: cardBoat,
     title: "Boat Party",
     description: "On the water, sun out, speakers up. Sail away from your responsibilities.",
     badge: "All Aboard",
     rotation: "-rotate-2",
   },
   {
-    image: cardPoutine,
+    image: cardFreeflow,
     title: "Free Flow",
     description: "Drinks on tap, no last call vibes. Keep the cups full 'til sunrise.",
     badge: "Pour It Up",
