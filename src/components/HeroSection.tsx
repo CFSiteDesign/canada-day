@@ -1,6 +1,7 @@
 import heroImage from "@/assets/hero-canada.jpg";
 import canadaDrinks from "@/assets/canada-drinks.png";
 import madMonkeyLogo from "@/assets/mad-monkey-logo.png";
+import heroHead from "@/assets/hero-head.png";
 import ScatteredStars from "@/components/ScatteredStars";
 
 const HeroSection = () => {
