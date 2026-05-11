@@ -76,8 +76,9 @@ const DamageCard = ({ card }: { card: typeof CARDS[number] }) => {
 
 const DamageSection = () => {
   return (
-    <section className="relative py-12 md:py-24 px-4 md:px-16 border-b-4 border-divider overflow-visible" style={{ backgroundColor: '#D52B1E' }}>
-      <h2 className="text-4xl md:text-8xl font-black uppercase text-center mb-8 md:mb-16 text-primary-foreground leading-none tracking-tighter">
+    <section className="relative py-12 md:py-24 px-4 md:px-16 border-b-4 border-divider overflow-hidden" style={{ backgroundColor: '#D52B1E' }}>
+      <ScatteredStars />
+      <h2 className="relative z-10 text-4xl md:text-8xl font-black uppercase text-center mb-8 md:mb-16 text-primary-foreground leading-none tracking-tighter">
         Sorry, Not Sorry 🍁
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12 max-w-7xl mx-auto">
