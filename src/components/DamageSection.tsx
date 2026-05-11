@@ -6,7 +6,7 @@ import cardFreeflow from "@/assets/card-freeflow.jpg";
 const CARDS = [
   {
     image: cardBbq,
-    title: "Maple BBQ",
+    title: "Canadian BBQ",
     description: "Grills fired up, maple-glazed burgers, flag-stuck sausages. Eat 'til you can't move, eh.",
     badge: "Fire It Up",
     rotation: "rotate-2",
