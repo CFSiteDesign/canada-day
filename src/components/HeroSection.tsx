@@ -1,6 +1,7 @@
 import heroImage from "@/assets/hero-canada.jpg";
 import canadaDrinks from "@/assets/canada-drinks.png";
 import madMonkeyLogo from "@/assets/mad-monkey-logo.png";
+import heroHead from "@/assets/hero-head.png";
 import ScatteredStars from "@/components/ScatteredStars";
 
 const HeroSection = () => {
@@ -13,12 +14,11 @@ const HeroSection = () => {
         <div className="mb-0 inline-flex items-center gap-2 bg-primary text-primary-foreground font-black uppercase px-4 py-2 text-xs md:text-lg border-2 border-primary -rotate-2 z-20 rounded-sm" style={{ textShadow: '0 2px 4px rgba(0,0,0,0.3)' }}>
           July 1st 🍁
         </div>
-        <h1
-          className="w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mt-4 md:mt-6 mb-4 md:mb-6 z-10 text-white text-[3.5rem] leading-[0.9] md:text-[6rem] lg:text-[8rem] xl:text-[10rem] font-['Bebas_Neue'] tracking-wide drop-shadow-[4px_4px_0_rgba(0,0,0,1)] text-left"
-          style={{ WebkitTextStroke: '2px black' }}
-        >
-          HAPPY CANADA DAY
-        </h1>
+        <img
+          src={heroHead}
+          alt="Happy Canada Day"
+          className="w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mt-4 md:mt-6 mb-4 md:mb-6 z-10"
+        />
         <p className="text-[13px] md:text-2xl font-bold mb-6 md:mb-10 max-w-xl leading-relaxed z-10 text-white">
           Maple syrup shots at midnight, eh?<br />
           Poutine plates piled half a metre high.<br />
