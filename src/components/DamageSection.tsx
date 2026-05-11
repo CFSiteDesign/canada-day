@@ -6,23 +6,23 @@ import cardPoutine from "@/assets/card-poutine.jpg";
 const CARDS = [
   {
     image: cardMaple,
-    title: "Maple Shots",
-    description: "Maple syrup, whisky, regret. Lined up at the bar from sundown 'til last call.",
-    badge: "Headline Pour",
+    title: "BBQ",
+    description: "Grills fired up, burgers stacked, maple-glazed everything. Eat 'til you can't move.",
+    badge: "Fire It Up",
     rotation: "rotate-2",
   },
   {
     image: cardHockey,
-    title: "Beer Pong, Eh?",
-    description: "Mini sticks, red solo cups in maple-leaf formation. Loser buys the next round.",
-    badge: "Big Prizes",
+    title: "Boat Party",
+    description: "On the water, sun out, speakers up. Sail away from your responsibilities.",
+    badge: "All Aboard",
     rotation: "-rotate-2",
   },
   {
     image: cardPoutine,
-    title: "Poutine Party",
-    description: "Fries, curds, gravy — the holy trinity. Soak up the night the Canadian way.",
-    badge: "All Night",
+    title: "Free Flow",
+    description: "Drinks on tap, no last call vibes. Keep the cups full 'til sunrise.",
+    badge: "Pour It Up",
     rotation: "-rotate-1",
   },
 ];
