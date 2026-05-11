@@ -2,6 +2,7 @@ import heroImage from "@/assets/hero-canada.jpg";
 import canadaDrinks from "@/assets/canada-drinks.png";
 import madMonkeyLogo from "@/assets/mad-monkey-logo.png";
 import heroHead from "@/assets/hero-head.png";
+import bgRed from "@/assets/bg-red.png";
 import ScatteredStars from "@/components/ScatteredStars";
 
 const HeroSection = () => {
@@ -9,7 +10,7 @@ const HeroSection = () => {
     <section className="relative z-10 w-full min-h-[100svh] md:min-h-[85vh] flex flex-col md:flex-row border-b-4 border-divider overflow-visible">
       <ScatteredStars />
       {/* Left - Text */}
-      <div className="flex-1 px-5 pt-2 pb-6 md:p-12 flex flex-col justify-center items-start border-b-4 md:border-b-0 md:border-r-4 border-divider relative" style={{ backgroundImage: `url(${heroHead && ''}${''})`, backgroundColor: 'transparent' }}>
+      <div className="flex-1 px-5 pt-2 pb-6 md:p-12 flex flex-col justify-center items-start border-b-4 md:border-b-0 md:border-r-4 border-divider relative" style={{ backgroundImage: `url(${bgRed})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <img src={madMonkeyLogo} alt="Mad Monkey" className="w-28 md:w-40 mb-3 md:mb-4 z-10" style={{ filter: 'drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white) drop-shadow(0 1px 0 white) drop-shadow(0 -1px 0 white)' }} />
         <div className="mb-0 inline-flex items-center gap-2 bg-primary text-primary-foreground font-black uppercase px-4 py-2 text-xs md:text-lg border-2 border-primary -rotate-2 z-20 rounded-sm" style={{ textShadow: '0 2px 4px rgba(0,0,0,0.3)' }}>
           July 1st 🍁
