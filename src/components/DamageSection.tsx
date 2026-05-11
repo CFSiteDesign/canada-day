@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import cardBbq from "@/assets/card-bbq.jpg";
 import cardBoat from "@/assets/card-boat.jpg";
 import cardFreeflow from "@/assets/card-freeflow.jpg";
+import ScatteredStars from "@/components/ScatteredStars";
 
 const CARDS = [
   {
