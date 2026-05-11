@@ -1,6 +1,7 @@
 import { useState, useMemo } from "react";
 import { PROPERTIES, COUNTRIES, type CountryFilter } from "@/data/properties";
 import ScatteredStars from "@/components/ScatteredStars";
+import bgRed2 from "@/assets/bg-red-2.png";
 
 const PropertySelector = () => {
   const [filter, setFilter] = useState<CountryFilter>("All");
@@ -17,11 +18,11 @@ const PropertySelector = () => {
   }, [filter, searchTerm]);
 
   return (
-    <section id="selector" className="relative py-12 md:py-24 overflow-hidden" style={{ background: 'linear-gradient(135deg, #D52B1E 0%, #D52B1E 40%, #FFFFFF 50%, #D52B1E 60%, #D52B1E 100%)' }}>
+    <section id="selector" className="relative py-12 md:py-24 overflow-hidden" style={{ backgroundImage: `url(${bgRed2})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <ScatteredStars />
       <div className="px-4 md:px-16 max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-8xl font-black uppercase mb-6 md:mb-8 text-white text-center md:text-left leading-none">
-          Pick your<br className="md:hidden" /> Canada Day<br />party 🍁
+          Pick your<br className="md:hidden" /> Canada Day<br className="md:hidden" /> party 🍁
         </h2>
 
         <div className="sticky top-0 z-20 bg-background py-3 md:py-4">
