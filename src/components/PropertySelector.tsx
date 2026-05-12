@@ -41,7 +41,7 @@ const PropertySelector = () => {
                   onClick={() => setFilter(country)}
                   className={`whitespace-nowrap px-4 md:px-8 py-2 md:py-3 font-black uppercase text-sm md:text-lg border-2 border-border transition-all ${
                     filter === country
-                      ? "bg-primary text-primary-foreground translate-x-1 translate-y-1 shadow-none"
+                      ? "bg-[#722F37] text-white translate-x-1 translate-y-1 shadow-none"
                       : "bg-card text-foreground hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
                   }`}
                 >
