@@ -60,7 +60,7 @@ const PropertySelector = () => {
                 className="bg-card border-2 border-border flex flex-col p-5 md:p-8 brutalist-card-hover group"
               >
                 <div className="flex justify-between items-start mb-4 md:mb-6">
-                  <span className="bg-primary text-primary-foreground px-2 md:px-3 py-1 text-xs font-black uppercase">
+                  <span className="bg-[#722F37] text-white px-2 md:px-3 py-1 text-xs font-black uppercase">
                     {prop.country}
                   </span>
                    <span className="text-secondary font-black uppercase text-xs animate-pulse">
