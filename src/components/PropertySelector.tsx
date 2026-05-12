@@ -41,7 +41,7 @@ const PropertySelector = () => {
                   onClick={() => setFilter(country)}
                   className={`whitespace-nowrap px-4 md:px-8 py-2 md:py-3 font-black uppercase text-sm md:text-lg border-2 border-border transition-all ${
                     filter === country
-                      ? "bg-primary text-primary-foreground translate-x-1 translate-y-1 shadow-none"
+                      ? "bg-[#722F37] text-white translate-x-1 translate-y-1 shadow-none"
                       : "bg-card text-foreground hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
                   }`}
                 >
@@ -60,7 +60,7 @@ const PropertySelector = () => {
                 className="bg-card border-2 border-border flex flex-col p-5 md:p-8 brutalist-card-hover group"
               >
                 <div className="flex justify-between items-start mb-4 md:mb-6">
-                  <span className="bg-primary text-primary-foreground px-2 md:px-3 py-1 text-xs font-black uppercase">
+                  <span className="bg-[#722F37] text-white px-2 md:px-3 py-1 text-xs font-black uppercase">
                     {prop.country}
                   </span>
                    <span className="text-secondary font-black uppercase text-xs animate-pulse">
@@ -75,7 +75,7 @@ const PropertySelector = () => {
                     href={prop.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block w-full text-center bg-primary text-primary-foreground font-black uppercase py-3 md:py-4 border-2 border-border text-sm md:text-base hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all"
+                    className="block w-full text-center bg-[#722F37] text-white font-black uppercase py-3 md:py-4 border-2 border-border text-sm md:text-base hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all"
                   >
                     GET ACCESS 🍁
                   </a>
