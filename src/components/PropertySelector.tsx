@@ -75,12 +75,12 @@ const PropertySelector = () => {
                     href={prop.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block w-full text-center bg-[#722F37] text-white font-black uppercase py-3 md:py-4 border-2 border-border text-sm md:text-base hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all"
+                    className="block w-full text-center bg-primary text-primary-foreground font-black uppercase py-3 md:py-4 border-2 border-border text-sm md:text-base hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all"
                   >
                     GET ACCESS 🍁
                   </a>
                 ) : (
-                  <span className="block w-full text-center bg-muted text-muted-foreground font-black uppercase py-3 md:py-4 border-2 border-border text-sm md:text-base cursor-not-allowed">
+                  <span className="block w-full text-center bg-[#722F37] text-white font-black uppercase py-3 md:py-4 border-2 border-border text-sm md:text-base cursor-not-allowed">
                     COMING SOON
                   </span>
                 )}
